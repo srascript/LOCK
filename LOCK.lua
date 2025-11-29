@@ -599,7 +599,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         Shadow1.Position = UDim2.new(0.468, 0,0.495, 0)
         Shadow1.BorderSizePixel = 0
         Shadow1.BackgroundColor3 = Color3.fromRGB(255,20,147)        Shadow1.ImageColor3 = Color3.fromRGB(255,20,147)        Shadow1.ScaleType = Enum.ScaleType.Tile
-        Shadow1.Image = "rbxassetid://8992230677"
+        Shadow1.Image = "rbxassetid://1"
         Shadow1.SliceCenter = Rect.new(Vector2.new(0, 0), Vector2.new(99, 99))
     
         local text_coroutine = coroutine.create(function ()
@@ -1477,7 +1477,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             HuePicker.BorderSizePixel = 0
                             HuePicker.Position = UDim2New(0, -4, 0, -2)
                             HuePicker.Size = UDim2New(0, 17, 0, 5)
-                            HuePicker.Image = "rbxassetid://13900818694"
+                            HuePicker.Image = "rbxassetid://1"
                             
                             TextButton.Parent = HueBackground
                             TextButton.BackgroundColor3 = Color3FromRGB(255, 255, 255)
@@ -1503,7 +1503,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             SaturationImage.BackgroundTransparency = 1.000
                             SaturationImage.BorderColor3 = Color3FromRGB(0, 0, 0)
                             SaturationImage.Size = UDim2New(1, 0, 1, 0)
-                            SaturationImage.Image = "rbxassetid://13901004307"
+                            SaturationImage.Image = "rbxassetid://1"
                             
                             SaturationPicker.Name = "SaturationPicker"
                             SaturationPicker.Parent = SaturationBackground
@@ -1512,7 +1512,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             SaturationPicker.BorderColor3 = Color3FromRGB(0, 0, 0)
                             SaturationPicker.Position = UDim2New(0, -1, 0, -1)
                             SaturationPicker.Size = UDim2New(0, 5, 0, 5)
-                            SaturationPicker.Image = "rbxassetid://13900819741"
+                            SaturationPicker.Image = "rbxassetid://1"
                             
                             SaturationButton.Name = "SaturationButton"
                             SaturationButton.Parent = SaturationBackground
@@ -1546,7 +1546,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             TransparencyPicker.BorderSizePixel = 0
                             TransparencyPicker.Position = UDim2New(0, -2, 0, -2)
                             TransparencyPicker.Size = UDim2New(0, 5, 0, 17)
-                            TransparencyPicker.Image = "rbxassetid://14248606745"
+                            TransparencyPicker.Image = "rbxassetid://1"
                             
                             TransparencyButton.Name = "TransparencyButton"
                             TransparencyButton.Parent = TransparencyBackground
@@ -1819,7 +1819,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             DropdownImage.Position = UDim2New(0.939999938, 0, 0.342727214, 0)
                             DropdownImage.BorderSizePixel = 0
                             DropdownImage.BackgroundColor3 = Color3FromRGB(255, 255, 255)
-                            DropdownImage.Image = "rbxassetid://17830630301"
+                            DropdownImage.Image = "rbxassetid://1"
                             
                             DropdownText.Name = "DropdownText"
                             DropdownText.Parent = OpenButton
@@ -3514,7 +3514,7 @@ local nigga = (function() -- src/Lua/loader.lua
         InfoGame.Parent = InfoFrame
         InfoGame.Size = UDim2.new(0, 81, 0, 81)
         InfoGame.BorderColor3 = Color3.fromRGB(255,20,147)        InfoGame.Position = UDim2.new(0.036144577, 0, 0.155339807, 0)
-        InfoGame.BackgroundColor3 = Color3.fromRGB(255,20,147)        InfoGame.Image = "rbxassetid://18175856299"
+        InfoGame.BackgroundColor3 = Color3.fromRGB(255,20,147)        InfoGame.Image = "rbxassetid://1"
     
         OptionsFrame.Name = "OptionsFrame"
         OptionsFrame.Parent = LoaderBackground
@@ -3590,7 +3590,7 @@ local nigga = (function() -- src/Lua/loader.lua
         Shadow1.Position = UDim2.new(0.542648137, 0, 0.600463212, 0)
         Shadow1.BorderSizePixel = 0
         Shadow1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)        Shadow1.ImageColor3 = Color3.fromRGB(255,20,147)        Shadow1.ScaleType = Enum.ScaleType.Tile
-        Shadow1.Image = "rbxassetid://8992230677"
+        Shadow1.Image = "rbxassetid://1"
         Shadow1.SliceCenter = Rect.new(Vector2.new(0, 0), Vector2.new(99, 99))
     
         for i, v in pairs(Loader:GetDescendants()) do
